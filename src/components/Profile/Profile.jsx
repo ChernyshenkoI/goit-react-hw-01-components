@@ -3,7 +3,7 @@ import css from './Profile.module.css';
 
 export function Profile({ username, tag, location, avatar, stats }) {
   return (
-    <div class="profile">
+    <div class={css.profile}>
       <div class="description">
         <img src={avatar} alt="User avatar" class="avatar" />
 
